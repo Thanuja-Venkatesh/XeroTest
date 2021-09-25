@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-25T08:03:50.388Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13019875200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.xero.test.common_Stepdefinition.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login and Adding an �ANZ� bank account inside Xero Organisation",
+        "description": "",
+        "id": "as-a-user-adding-an-anz-bank-account-inside-xero-organisation;login-and-adding-an-�anz�-bank-account-inside-xero-organisation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 8241822500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.xero.test.common_Stepdefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2952566700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login with \"thanujaselvi@gmail.com\" and \"Test@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"thanujaselvi@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Test@1234\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.xero.test.XeroAddBankAccountTest.login_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207512200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Select authenticator type",
+            "match": {
+              "location": "com.xero.test.XeroAddBankAccountTest.select_authenticator_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 421390300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter answer for authenticator question and submit",
+            "match": {
+              "location": "com.xero.test.XeroAddBankAccountTest.enter_answer_for_authenticator_question_and_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13832446200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Add bank account under accounting",
+            "match": {
+              "location": "com.xero.test.XeroAddBankAccountTest.add_bank_account_under_accounting()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4160731000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check added account displaying or not",
+            "match": {
+              "location": "com.xero.test.XeroAddBankAccountTest.check_added_account_displaying_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user adding an ANZ bank account inside Xero Organisation",
+    "description": "",
+    "id": "as-a-user-adding-an-anz-bank-account-inside-xero-organisation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/xeroTest.feature",
+    "tags": []
+  }
+]

@@ -26,6 +26,7 @@ _Method 1:_
 
 ![image](https://user-images.githubusercontent.com/71678687/134764137-15f8e0f8-971c-43a4-9066-8bf6ce7904ea.png)
 
+![image](https://user-images.githubusercontent.com/71678687/134764433-9956eed7-578d-4e1b-9e19-ded27e54fb70.png)
 
 
 _Method 2:_
